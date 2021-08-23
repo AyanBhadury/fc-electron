@@ -1,11 +1,11 @@
 {
   "name": "angular-electron",
-  "version": "10.1.0",
-  "description": "Angular 12 with Electron (Typescript + SASS + Hot Reload)",
-  "homepage": "https://github.com/maximegris/angular-electron",
+  "version": "1.0.0",
+  "description": "Fusioncharts-angular-electron demo",
+  "homepage": ".",
   "author": {
-    "name": "Maxime GRIS",
-    "email": "maxime.gris@gmail.com"
+    "name": "ayan bhadury",
+    "email": "ayon.bony@gmail.com"
   },
   "keywords": [
     "angular",
