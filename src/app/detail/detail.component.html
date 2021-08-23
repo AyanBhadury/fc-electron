@@ -1,7 +1,14 @@
 <div class="container">
-  <h1 class="title">
-    {{ 'PAGES.DETAIL.TITLE' | translate }}
-  </h1>
+  <h1 class="title">FusionCharts Column Chart Demo</h1>
 
-  <a routerLink="/">{{ 'PAGES.DETAIL.BACK_TO_HOME' | translate }}</a>
+  <fusioncharts
+    width="600"
+    height="350"
+    type="Column2D"
+    dataFormat="JSON"
+    [dataSource]="dataSource"
+    containerBackgroundOpacity="0"
+  ></fusioncharts>
+
+  <a routerLink="/">{{ "PAGES.DETAIL.BACK_TO_HOME" | translate }}</a>
 </div>
